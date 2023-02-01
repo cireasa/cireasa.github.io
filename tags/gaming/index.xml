@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>gaming on donno. stuff.</title>
+    <link>https://cireasa.github.io/tags/gaming/</link>
+    <description>Recent content in gaming on donno. stuff.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Oct 2021 12:03:44 +0300</lastBuildDate><atom:link href="https://cireasa.github.io/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming Cum Sa Instalezi Roblox in Linux</title>
+      <link>https://cireasa.github.io/posts/gaming-cum-sa-instalezi-roblox-in-linux/</link>
+      <pubDate>Fri, 15 Oct 2021 12:03:44 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/gaming-cum-sa-instalezi-roblox-in-linux/</guid>
+      <description>Cum sa instalezi Roblox in Linux</description>
+    </item>
+    
+    <item>
+      <title>Disable Mouse Acceleration Manjaro</title>
+      <link>https://cireasa.github.io/posts/disable-mouse-acceleration-manjaro/</link>
+      <pubDate>Sun, 12 Sep 2021 20:32:55 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/disable-mouse-acceleration-manjaro/</guid>
+      <description>Disable mouse acceleration</description>
+    </item>
+    
+    <item>
+      <title>Piper Configurare Mouse Mmo Manjaro</title>
+      <link>https://cireasa.github.io/posts/piper-configurare-mouse-mmo-manjaro/</link>
+      <pubDate>Sun, 12 Sep 2021 19:59:28 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/piper-configurare-mouse-mmo-manjaro/</guid>
+      <description>Cum sa configurezi un mouse MMO in Linux</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ubuntu on donno. stuff.</title>
+    <link>https://cireasa.github.io/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on donno. stuff.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Nov 2021 18:45:28 +0200</lastBuildDate><atom:link href="https://cireasa.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debian Repository Does Not Have a Release File</title>
+      <link>https://cireasa.github.io/posts/debian-repository-does-not-have-a-release-file/</link>
+      <pubDate>Tue, 30 Nov 2021 18:45:28 +0200</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/debian-repository-does-not-have-a-release-file/</guid>
+      <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14  [root@host ~]$ sudo apt update Hit:1 https://ftp.debian.org/debian bullseye InRelease Hit:2 https://ftp.debian.org/debian bullseye-updates InRelease Ign:3 https://security.debian.org/debian-security bullseye/updates InRelease Hit:4 https://httpredir.debian.org/debian bullseye InRelease Err:5 https://security.debian.org/debian-security bullseye/updates Release 404 Not Found [IP: 151.101.66.132 443] Hit:6 http://download.proxmox.com/debian/ceph-pacific bullseye InRelease Hit:7 http://download.proxmox.com/debian/pve bullseye InRelease Hit:8 https://packages.cisofy.com/community/lynis/deb stable InRelease Reading package lists... Done E: The repository &amp;#39;https://security.debian.org/debian-security bullseye/updates Release&amp;#39; does not have a Release file.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Neplan Static Ip</title>
+      <link>https://cireasa.github.io/posts/ubuntu-neplan-static-ip/</link>
+      <pubDate>Tue, 05 Oct 2021 11:47:51 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/ubuntu-neplan-static-ip/</guid>
+      <description>Asigneaza IP static in Ubuntu server via neplan</description>
+    </item>
+    
+    <item>
+      <title>Static Ip Ubuntu Netplan</title>
+      <link>https://cireasa.github.io/posts/static-ip-ubuntu-netplan/</link>
+      <pubDate>Tue, 21 Sep 2021 16:04:18 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/static-ip-ubuntu-netplan/</guid>
+      <description>Cum sa asignezi un IP static/dinamic in Ubuntu cu Netplan</description>
+    </item>
+    
+  </channel>
+</rss>

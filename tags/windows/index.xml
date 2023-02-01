@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>windows on donno. stuff.</title>
+    <link>https://cireasa.github.io/tags/windows/</link>
+    <description>Recent content in windows on donno. stuff.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jan 2022 09:37:07 +0200</lastBuildDate><atom:link href="https://cireasa.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raspberry Cum Sa Instalezi Un Pi0 Headless</title>
+      <link>https://cireasa.github.io/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</link>
+      <pubDate>Thu, 20 Jan 2022 09:37:07 +0200</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</guid>
+      <description>Cum sa configurezi un Raspberry Pi 0 W (1/2) headless - wifi/ssh</description>
+    </item>
+    
+    <item>
+      <title>Windows 11 Unable to Change Time Zone</title>
+      <link>https://cireasa.github.io/posts/windows-11-unable-to-change-time-zone/</link>
+      <pubDate>Mon, 25 Oct 2021 19:05:21 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/windows-11-unable-to-change-time-zone/</guid>
+      <description>Schimba timezone-ul in Windows 10/11 via cli</description>
+    </item>
+    
+    <item>
+      <title>Windows Rearm Windows 2019</title>
+      <link>https://cireasa.github.io/posts/windows-rearm-windows-2019/</link>
+      <pubDate>Fri, 15 Oct 2021 10:37:13 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/windows-rearm-windows-2019/</guid>
+      <description>Cum sa folosesti Windows 2016/2019 pentru 3 ani gratis si legal (non-commercial)</description>
+    </item>
+    
+  </channel>
+</rss>

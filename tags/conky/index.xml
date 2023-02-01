@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>conky on donno. stuff.</title>
+    <link>https://cireasa.github.io/tags/conky/</link>
+    <description>Recent content in conky on donno. stuff.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Sep 2021 22:17:34 +0300</lastBuildDate><atom:link href="https://cireasa.github.io/tags/conky/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conky Autostart</title>
+      <link>https://cireasa.github.io/posts/conky-autostart/</link>
+      <pubDate>Thu, 30 Sep 2021 22:17:34 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/conky-autostart/</guid>
+      <description>Cum sa pornesti automat Conky in Manjaro</description>
+    </item>
+    
+  </channel>
+</rss>

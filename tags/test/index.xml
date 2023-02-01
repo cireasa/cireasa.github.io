@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>test on donno. stuff.</title>
+    <link>https://cireasa.github.io/tags/test/</link>
+    <description>Recent content in test on donno. stuff.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Sep 2021 18:32:35 +0300</lastBuildDate><atom:link href="https://cireasa.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Poza</title>
+      <link>https://cireasa.github.io/posts/test-poza/</link>
+      <pubDate>Fri, 10 Sep 2021 18:32:35 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/test-poza/</guid>
+      <description>Test de atasat poza</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://cireasa.github.io/posts/first/</link>
+      <pubDate>Wed, 08 Sep 2021 10:36:11 +0300</pubDate>
+      
+      <guid>https://cireasa.github.io/posts/first/</guid>
+      <description>First post here</description>
+    </item>
+    
+  </channel>
+</rss>

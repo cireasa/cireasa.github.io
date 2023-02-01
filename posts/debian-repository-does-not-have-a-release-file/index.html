@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Debian Repository Does Not Have a Release File | donno. stuff.</title>
+<meta name="keywords" content="linux, ubuntu, debian" />
+<meta name="description" content="1 2 3 4 5 6 7 8 9 10 11 12 13 14  [root@host ~]$ sudo apt update Hit:1 https://ftp.debian.org/debian bullseye InRelease Hit:2 https://ftp.debian.org/debian bullseye-updates InRelease Ign:3 https://security.debian.org/debian-security bullseye/updates InRelease Hit:4 https://httpredir.debian.org/debian bullseye InRelease Err:5 https://security.debian.org/debian-security bullseye/updates Release 404 Not Found [IP: 151.101.66.132 443] Hit:6 http://download.proxmox.com/debian/ceph-pacific bullseye InRelease Hit:7 http://download.proxmox.com/debian/pve bullseye InRelease Hit:8 https://packages.cisofy.com/community/lynis/deb stable InRelease Reading package lists... Done E: The repository &#39;https://security.debian.org/debian-security bullseye/updates Release&#39; does not have a Release file.">
+<meta name="author" content="reSH">
+<link rel="canonical" href="https://cireasa.github.io/posts/debian-repository-does-not-have-a-release-file/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.b243b7f5b0b102ded02c5f3996163a62b4a5cdacab1ed6480c9b042445d1ae4a.css" integrity="sha256-skO39bCxAt7QLF85lhY6YrSlzayrHtZIDJsEJEXRrko=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://cireasa.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cireasa.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cireasa.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://cireasa.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://cireasa.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.92.2" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVLE0Z35P3"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-VVLE0Z35P3', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Debian Repository Does Not Have a Release File" />
+<meta property="og:description" content="1 2 3 4 5 6 7 8 9 10 11 12 13 14  [root@host ~]$ sudo apt update Hit:1 https://ftp.debian.org/debian bullseye InRelease Hit:2 https://ftp.debian.org/debian bullseye-updates InRelease Ign:3 https://security.debian.org/debian-security bullseye/updates InRelease Hit:4 https://httpredir.debian.org/debian bullseye InRelease Err:5 https://security.debian.org/debian-security bullseye/updates Release 404 Not Found [IP: 151.101.66.132 443] Hit:6 http://download.proxmox.com/debian/ceph-pacific bullseye InRelease Hit:7 http://download.proxmox.com/debian/pve bullseye InRelease Hit:8 https://packages.cisofy.com/community/lynis/deb stable InRelease Reading package lists... Done E: The repository &#39;https://security.debian.org/debian-security bullseye/updates Release&#39; does not have a Release file." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cireasa.github.io/posts/debian-repository-does-not-have-a-release-file/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-11-30T18:45:28+02:00" />
+<meta property="article:modified_time" content="2021-11-30T18:45:28+02:00" /><meta property="og:site_name" content="reSH.ro" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Debian Repository Does Not Have a Release File"/>
+<meta name="twitter:description" content="1 2 3 4 5 6 7 8 9 10 11 12 13 14  [root@host ~]$ sudo apt update Hit:1 https://ftp.debian.org/debian bullseye InRelease Hit:2 https://ftp.debian.org/debian bullseye-updates InRelease Ign:3 https://security.debian.org/debian-security bullseye/updates InRelease Hit:4 https://httpredir.debian.org/debian bullseye InRelease Err:5 https://security.debian.org/debian-security bullseye/updates Release 404 Not Found [IP: 151.101.66.132 443] Hit:6 http://download.proxmox.com/debian/ceph-pacific bullseye InRelease Hit:7 http://download.proxmox.com/debian/pve bullseye InRelease Hit:8 https://packages.cisofy.com/community/lynis/deb stable InRelease Reading package lists... Done E: The repository &#39;https://security.debian.org/debian-security bullseye/updates Release&#39; does not have a Release file."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://cireasa.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Debian Repository Does Not Have a Release File",
+      "item": "https://cireasa.github.io/posts/debian-repository-does-not-have-a-release-file/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Debian Repository Does Not Have a Release File",
+  "name": "Debian Repository Does Not Have a Release File",
+  "description": "1 2 3 4 5 6 7 8 9 10 11 12 13 14  [root@host ~]$ sudo apt update Hit:1 https://ftp.debian.org/debian bullseye InRelease Hit:2 https://ftp.debian.org/debian bullseye-updates InRelease Ign:3 https://security.debian.org/debian-security bullseye/updates InRelease Hit:4 https://httpredir.debian.org/debian bullseye InRelease Err:5 https://security.debian.org/debian-security bullseye/updates Release 404 Not Found [IP: 151.101.66.132 443] Hit:6 http://download.proxmox.com/debian/ceph-pacific bullseye InRelease Hit:7 http://download.proxmox.com/debian/pve bullseye InRelease Hit:8 https://packages.cisofy.com/community/lynis/deb stable InRelease Reading package lists... Done E: The repository \u0026#39;https://security.debian.org/debian-security bullseye/updates Release\u0026#39; does not have a Release file.",
+  "keywords": [
+    "linux", "ubuntu", "debian"
+  ],
+  "articleBody": "1 2 3 4 5 6 7 8 9 10 11 12 13 14  [root@host ~]$ sudo apt update Hit:1 https://ftp.debian.org/debian bullseye InRelease Hit:2 https://ftp.debian.org/debian bullseye-updates InRelease Ign:3 https://security.debian.org/debian-security bullseye/updates InRelease Hit:4 https://httpredir.debian.org/debian bullseye InRelease Err:5 https://security.debian.org/debian-security bullseye/updates Release 404 Not Found [IP: 151.101.66.132 443] Hit:6 http://download.proxmox.com/debian/ceph-pacific bullseye InRelease Hit:7 http://download.proxmox.com/debian/pve bullseye InRelease Hit:8 https://packages.cisofy.com/community/lynis/deb stable InRelease Reading package lists... Done E: The repository 'https://security.debian.org/debian-security bullseye/updates Release' does not have a Release file. N: Updating from such a repository cant be done securely, and is therefore disabled by default. N: See apt-secure(8) manpage for repository creation and user configuration details.   cat /etc/apt/sources.list (In cazul asta, e deja modificat; vezi mai jos)\n1 2 3 4 5 6 7  [root@host ~]$ cat /etc/apt/sources.list deb https://ftp.debian.org/debian bullseye main contrib deb https://ftp.debian.org/debian bullseye-updates main contrib # non-free deb https://httpredir.debian.org/debian/ bullseye main contrib non-free # security updates deb https://security.debian.org/debian-security bullseye-security main contrib   Se modifica:\n1 2  deb http://security.debian.org/debian-security/ bullseye/updates main deb-src http://security.debian.org/debian-security/ bullseye/updates main   in:\n1 2  deb http://security.debian.org/debian-security/ bullseye-security main deb-src http://security.debian.org/debian-security/ bullseye-security main   Done\n",
+  "wordCount" : "172",
+  "inLanguage": "en",
+  "datePublished": "2021-11-30T18:45:28+02:00",
+  "dateModified": "2021-11-30T18:45:28+02:00",
+  "author":{
+    "@type": "Person",
+    "name": "reSH"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cireasa.github.io/posts/debian-repository-does-not-have-a-release-file/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "donno. stuff.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cireasa.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://cireasa.github.io/" accesskey="h" title="donno. stuff. (Alt + H)">donno. stuff.</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://cireasa.github.io/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://cireasa.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://cireasa.github.io/about/" title="about">
+                    <span>about</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://cireasa.github.io/links/" title="links">
+                    <span>links</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVLE0Z35P3"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-VVLE0Z35P3', { 'anonymize_ip': false });
+}
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVLE0Z35P3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VVLE0Z35P3');
+</script>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Debian Repository Does Not Have a Release File
+    </h1>
+    <div class="post-meta"><span title='2021-11-30 18:45:28 +0200 +0200'>November 30, 2021</span>&nbsp;·&nbsp;reSH
+
+</div>
+  </header> 
+  <div class="post-content"><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>root@host ~<span style="color:#f92672">]</span>$ sudo apt update
+Hit:1 https://ftp.debian.org/debian bullseye InRelease
+Hit:2 https://ftp.debian.org/debian bullseye-updates InRelease                                    
+Ign:3 https://security.debian.org/debian-security bullseye/updates InRelease                      
+Hit:4 https://httpredir.debian.org/debian bullseye InRelease                                      
+Err:5 https://security.debian.org/debian-security bullseye/updates Release                        
+  <span style="color:#ae81ff">404</span>  Not Found <span style="color:#f92672">[</span>IP: 151.101.66.132 443<span style="color:#f92672">]</span>
+Hit:6 http://download.proxmox.com/debian/ceph-pacific bullseye InRelease                          
+Hit:7 http://download.proxmox.com/debian/pve bullseye InRelease            
+Hit:8 https://packages.cisofy.com/community/lynis/deb stable InRelease
+Reading package lists... Done
+E: The repository <span style="color:#e6db74">&#39;https://security.debian.org/debian-security bullseye/updates Release&#39;</span> does not have a Release file.
+N: Updating from such a repository cant be <span style="color:#66d9ef">done</span> securely, and is therefore disabled by default.
+N: See apt-secure<span style="color:#f92672">(</span>8<span style="color:#f92672">)</span> manpage <span style="color:#66d9ef">for</span> repository creation and user configuration details.
+</code></pre></td></tr></table>
+</div>
+</div><p><code>cat /etc/apt/sources.list</code>
+(In cazul asta, e deja modificat; vezi mai jos)</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>root@host ~<span style="color:#f92672">]</span>$ cat /etc/apt/sources.list
+deb https://ftp.debian.org/debian bullseye main contrib
+deb https://ftp.debian.org/debian bullseye-updates main contrib
+<span style="color:#75715e"># non-free</span>
+deb https://httpredir.debian.org/debian/ bullseye main contrib non-free
+<span style="color:#75715e"># security updates</span>
+deb https://security.debian.org/debian-security bullseye-security main contrib
+</code></pre></td></tr></table>
+</div>
+</div><p>Se modifica:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">deb http://security.debian.org/debian-security/ bullseye/updates main
+deb-src http://security.debian.org/debian-security/ bullseye/updates main
+</code></pre></td></tr></table>
+</div>
+</div><p>in:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">deb http://security.debian.org/debian-security/ bullseye-security main
+deb-src http://security.debian.org/debian-security/ bullseye-security main
+</code></pre></td></tr></table>
+</div>
+</div><p>Done</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://cireasa.github.io/tags/linux/">linux</a></li>
+      <li><a href="https://cireasa.github.io/tags/ubuntu/">ubuntu</a></li>
+      <li><a href="https://cireasa.github.io/tags/debian/">debian</a></li>
+    </ul>
+  </footer><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+      this.page.url = 'https:\/\/cireasa.github.io\/posts\/debian-repository-does-not-have-a-release-file\/';
+      this.page.identifier = 'https:\/\/cireasa.github.io\/posts\/debian-repository-does-not-have-a-release-file\/';
+      this.page.title = 'Debian Repository Does Not Have a Release File';
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "reshro" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://cireasa.github.io/">donno. stuff.</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
