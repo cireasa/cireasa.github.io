@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>vim on donno. stuff.</title>
-    <link>https://cireasa.github.io/tags/vim/</link>
+    <link>https://www.resh.ro/tags/vim/</link>
     <description>Recent content in vim on donno. stuff.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Dec 2021 14:52:31 +0200</lastBuildDate><atom:link href="https://cireasa.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Dec 2021 14:52:31 +0200</lastBuildDate><atom:link href="https://www.resh.ro/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Vim Rescrie Ca Root</title>
-      <link>https://cireasa.github.io/posts/linux-vim-rescrie-ca-root/</link>
+      <link>https://www.resh.ro/posts/linux-vim-rescrie-ca-root/</link>
       <pubDate>Thu, 09 Dec 2021 14:52:31 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/linux-vim-rescrie-ca-root/</guid>
+      <guid>https://www.resh.ro/posts/linux-vim-rescrie-ca-root/</guid>
       <description>Cum sa salvezi un fisier ce are nevoie de root cand ai uitat de sudo in Vim</description>
     </item>
     

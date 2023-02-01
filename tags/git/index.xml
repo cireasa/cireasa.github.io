@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>git on donno. stuff.</title>
-    <link>https://cireasa.github.io/tags/git/</link>
+    <link>https://www.resh.ro/tags/git/</link>
     <description>Recent content in git on donno. stuff.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jan 2023 20:34:37 +0100</lastBuildDate><atom:link href="https://cireasa.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 20:34:37 +0100</lastBuildDate><atom:link href="https://www.resh.ro/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Time Git Setup</title>
-      <link>https://cireasa.github.io/posts/202301-first-time-git-setup/</link>
+      <link>https://www.resh.ro/posts/202301-first-time-git-setup/</link>
       <pubDate>Mon, 23 Jan 2023 20:34:37 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/posts/202301-first-time-git-setup/</guid>
+      <guid>https://www.resh.ro/posts/202301-first-time-git-setup/</guid>
       <description>1 2 3 4 5  git config --global user.name &amp;#34;Michael Jackson&amp;#34; git config --global user.email michael.jackson@gmail.com git config --global core.editor vim (pentru windows: git config --global core.editor &amp;#34;&amp;#39;C:/Program Files/Notepad++/notepad++.exe&amp;#39; -multiInst -notabbar -nosession -noPlugin&amp;#34;) git config --global init.defaultBranch main   Check settings:
 git config --list
 SSH auth la github Generare chei Verifica cheile existente
@@ -23,10 +23,10 @@ Daca nu exista, genereaza o cheie noua:</description>
     
     <item>
       <title>Git Detached Head</title>
-      <link>https://cireasa.github.io/posts/git-detached-head/</link>
+      <link>https://www.resh.ro/posts/git-detached-head/</link>
       <pubDate>Thu, 30 Sep 2021 21:02:30 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/git-detached-head/</guid>
+      <guid>https://www.resh.ro/posts/git-detached-head/</guid>
       <description>Git - Detached Head - cum sa rezolvi</description>
     </item>
     

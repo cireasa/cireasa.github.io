@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hugo on donno. stuff.</title>
-    <link>https://cireasa.github.io/tags/hugo/</link>
+    <link>https://www.resh.ro/tags/hugo/</link>
     <description>Recent content in hugo on donno. stuff.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jan 2023 22:28:54 +0100</lastBuildDate><atom:link href="https://cireasa.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 22:28:54 +0100</lastBuildDate><atom:link href="https://www.resh.ro/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Script Localserver</title>
-      <link>https://cireasa.github.io/posts/202301-hugo-script-localserver/</link>
+      <link>https://www.resh.ro/posts/202301-hugo-script-localserver/</link>
       <pubDate>Tue, 24 Jan 2023 22:28:54 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/posts/202301-hugo-script-localserver/</guid>
+      <guid>https://www.resh.ro/posts/202301-hugo-script-localserver/</guid>
       <description>Pentru rulat Hugo in WSL (unde nu merge localhost:1313):
 1 2 3 4  function hugo_server() { WSL2_IPADDRESS=$(ip addr show eth0 | grep &amp;#34;inet\b&amp;#34; | awk &amp;#39;{print $2}&amp;#39; | cut -d/ -f1) hugo server --bind $WSL2_IPADDRESS --baseURL=http://$WSL2_IPADDRESS -D -F --gc -w }   Dupa rulezi direct hugo_server. IP-ul il iei din consola:
 1 2 3 4 5  Environment: &amp;#34;development&amp;#34; Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://172.</description>
@@ -20,28 +20,28 @@
     
     <item>
       <title>Hugo Adauga Comentarii Prin Disqus</title>
-      <link>https://cireasa.github.io/posts/hugo-adauga-comentarii-prin-disqus/</link>
+      <link>https://www.resh.ro/posts/hugo-adauga-comentarii-prin-disqus/</link>
       <pubDate>Thu, 30 Sep 2021 23:27:09 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/hugo-adauga-comentarii-prin-disqus/</guid>
+      <guid>https://www.resh.ro/posts/hugo-adauga-comentarii-prin-disqus/</guid>
       <description>Cum sa adaugi comentarii in Hugo prin Disqus</description>
     </item>
     
     <item>
       <title>Hugo Cum Sa Deschizi Pagini in Tab Nou</title>
-      <link>https://cireasa.github.io/posts/hugo-cum-sa-deschizi-pagini-in-tab-nou/</link>
+      <link>https://www.resh.ro/posts/hugo-cum-sa-deschizi-pagini-in-tab-nou/</link>
       <pubDate>Thu, 30 Sep 2021 20:48:00 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/hugo-cum-sa-deschizi-pagini-in-tab-nou/</guid>
+      <guid>https://www.resh.ro/posts/hugo-cum-sa-deschizi-pagini-in-tab-nou/</guid>
       <description>Cum sa deschizi pagini in tab nou in Hugo</description>
     </item>
     
     <item>
       <title>Cum Ruleaza Blogul Asta</title>
-      <link>https://cireasa.github.io/posts/cum-ruleaza-blogul-asta/</link>
+      <link>https://www.resh.ro/posts/cum-ruleaza-blogul-asta/</link>
       <pubDate>Tue, 14 Sep 2021 09:16:25 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/cum-ruleaza-blogul-asta/</guid>
+      <guid>https://www.resh.ro/posts/cum-ruleaza-blogul-asta/</guid>
       <description>Unde e tinut blogul si ce soft e in spate</description>
     </item>
     

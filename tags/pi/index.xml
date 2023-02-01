@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>pi on donno. stuff.</title>
-    <link>https://cireasa.github.io/tags/pi/</link>
+    <link>https://www.resh.ro/tags/pi/</link>
     <description>Recent content in pi on donno. stuff.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Dec 2021 12:32:52 +0200</lastBuildDate><atom:link href="https://cireasa.github.io/tags/pi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Dec 2021 12:32:52 +0200</lastBuildDate><atom:link href="https://www.resh.ro/tags/pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Pi Printer Wireless</title>
-      <link>https://cireasa.github.io/posts/linux-pi-printer-wireless/</link>
+      <link>https://www.resh.ro/posts/linux-pi-printer-wireless/</link>
       <pubDate>Wed, 15 Dec 2021 12:32:52 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/linux-pi-printer-wireless/</guid>
+      <guid>https://www.resh.ro/posts/linux-pi-printer-wireless/</guid>
       <description>Cum sa faci un printer wireless folosind un Raspberry Pi Zero W</description>
     </item>
     
     <item>
       <title>Linux Pi Instalare Pihole</title>
-      <link>https://cireasa.github.io/posts/linux-pi-instalare-pihole/</link>
+      <link>https://www.resh.ro/posts/linux-pi-instalare-pihole/</link>
       <pubDate>Wed, 15 Dec 2021 09:31:29 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/linux-pi-instalare-pihole/</guid>
+      <guid>https://www.resh.ro/posts/linux-pi-instalare-pihole/</guid>
       <description>Instalare pihole pe un raspberry pi zero w</description>
     </item>
     

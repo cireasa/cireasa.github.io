@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on donno. stuff.</title>
-    <link>https://cireasa.github.io/posts/</link>
+    <link>https://www.resh.ro/posts/</link>
     <description>Recent content in Posts on donno. stuff.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jan 2023 22:28:54 +0100</lastBuildDate><atom:link href="https://cireasa.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 22:28:54 +0100</lastBuildDate><atom:link href="https://www.resh.ro/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Script Localserver</title>
-      <link>https://cireasa.github.io/posts/202301-hugo-script-localserver/</link>
+      <link>https://www.resh.ro/posts/202301-hugo-script-localserver/</link>
       <pubDate>Tue, 24 Jan 2023 22:28:54 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/posts/202301-hugo-script-localserver/</guid>
+      <guid>https://www.resh.ro/posts/202301-hugo-script-localserver/</guid>
       <description>Pentru rulat Hugo in WSL (unde nu merge localhost:1313):
 1 2 3 4  function hugo_server() { WSL2_IPADDRESS=$(ip addr show eth0 | grep &amp;#34;inet\b&amp;#34; | awk &amp;#39;{print $2}&amp;#39; | cut -d/ -f1) hugo server --bind $WSL2_IPADDRESS --baseURL=http://$WSL2_IPADDRESS -D -F --gc -w }   Dupa rulezi direct hugo_server. IP-ul il iei din consola:
 1 2 3 4 5  Environment: &amp;#34;development&amp;#34; Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://172.</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>First Time Git Setup</title>
-      <link>https://cireasa.github.io/posts/202301-first-time-git-setup/</link>
+      <link>https://www.resh.ro/posts/202301-first-time-git-setup/</link>
       <pubDate>Mon, 23 Jan 2023 20:34:37 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/posts/202301-first-time-git-setup/</guid>
+      <guid>https://www.resh.ro/posts/202301-first-time-git-setup/</guid>
       <description>1 2 3 4 5  git config --global user.name &amp;#34;Michael Jackson&amp;#34; git config --global user.email michael.jackson@gmail.com git config --global core.editor vim (pentru windows: git config --global core.editor &amp;#34;&amp;#39;C:/Program Files/Notepad++/notepad++.exe&amp;#39; -multiInst -notabbar -nosession -noPlugin&amp;#34;) git config --global init.defaultBranch main   Check settings:
 git config --list
 SSH auth la github Generare chei Verifica cheile existente
@@ -34,217 +34,217 @@ Daca nu exista, genereaza o cheie noua:</description>
     
     <item>
       <title>Eroare Enter-Pssession</title>
-      <link>https://cireasa.github.io/posts/202301-enter-pssession/</link>
+      <link>https://www.resh.ro/posts/202301-enter-pssession/</link>
       <pubDate>Mon, 23 Jan 2023 20:13:49 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/posts/202301-enter-pssession/</guid>
+      <guid>https://www.resh.ro/posts/202301-enter-pssession/</guid>
       <description>Enter-PSSession - WinRM client cannot process the request</description>
     </item>
     
     <item>
       <title>Raspberry Cum Sa Instalezi Un Pi0 Headless</title>
-      <link>https://cireasa.github.io/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</link>
+      <link>https://www.resh.ro/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</link>
       <pubDate>Thu, 20 Jan 2022 09:37:07 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</guid>
+      <guid>https://www.resh.ro/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</guid>
       <description>Cum sa configurezi un Raspberry Pi 0 W (1/2) headless - wifi/ssh</description>
     </item>
     
     <item>
       <title>Linux Read Write All Users</title>
-      <link>https://cireasa.github.io/posts/linux-read-write-all-users/</link>
+      <link>https://www.resh.ro/posts/linux-read-write-all-users/</link>
       <pubDate>Thu, 06 Jan 2022 16:39:14 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/linux-read-write-all-users/</guid>
+      <guid>https://www.resh.ro/posts/linux-read-write-all-users/</guid>
       <description>Cum sa dai acces read/write pentru toti userii</description>
     </item>
     
     <item>
       <title>Linux Pi Printer Wireless</title>
-      <link>https://cireasa.github.io/posts/linux-pi-printer-wireless/</link>
+      <link>https://www.resh.ro/posts/linux-pi-printer-wireless/</link>
       <pubDate>Wed, 15 Dec 2021 12:32:52 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/linux-pi-printer-wireless/</guid>
+      <guid>https://www.resh.ro/posts/linux-pi-printer-wireless/</guid>
       <description>Cum sa faci un printer wireless folosind un Raspberry Pi Zero W</description>
     </item>
     
     <item>
       <title>Linux Pi Instalare Pihole</title>
-      <link>https://cireasa.github.io/posts/linux-pi-instalare-pihole/</link>
+      <link>https://www.resh.ro/posts/linux-pi-instalare-pihole/</link>
       <pubDate>Wed, 15 Dec 2021 09:31:29 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/linux-pi-instalare-pihole/</guid>
+      <guid>https://www.resh.ro/posts/linux-pi-instalare-pihole/</guid>
       <description>Instalare pihole pe un raspberry pi zero w</description>
     </item>
     
     <item>
       <title>Linux Vim Rescrie Ca Root</title>
-      <link>https://cireasa.github.io/posts/linux-vim-rescrie-ca-root/</link>
+      <link>https://www.resh.ro/posts/linux-vim-rescrie-ca-root/</link>
       <pubDate>Thu, 09 Dec 2021 14:52:31 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/linux-vim-rescrie-ca-root/</guid>
+      <guid>https://www.resh.ro/posts/linux-vim-rescrie-ca-root/</guid>
       <description>Cum sa salvezi un fisier ce are nevoie de root cand ai uitat de sudo in Vim</description>
     </item>
     
     <item>
       <title>Debian Repository Does Not Have a Release File</title>
-      <link>https://cireasa.github.io/posts/debian-repository-does-not-have-a-release-file/</link>
+      <link>https://www.resh.ro/posts/debian-repository-does-not-have-a-release-file/</link>
       <pubDate>Tue, 30 Nov 2021 18:45:28 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/debian-repository-does-not-have-a-release-file/</guid>
+      <guid>https://www.resh.ro/posts/debian-repository-does-not-have-a-release-file/</guid>
       <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14  [root@host ~]$ sudo apt update Hit:1 https://ftp.debian.org/debian bullseye InRelease Hit:2 https://ftp.debian.org/debian bullseye-updates InRelease Ign:3 https://security.debian.org/debian-security bullseye/updates InRelease Hit:4 https://httpredir.debian.org/debian bullseye InRelease Err:5 https://security.debian.org/debian-security bullseye/updates Release 404 Not Found [IP: 151.101.66.132 443] Hit:6 http://download.proxmox.com/debian/ceph-pacific bullseye InRelease Hit:7 http://download.proxmox.com/debian/pve bullseye InRelease Hit:8 https://packages.cisofy.com/community/lynis/deb stable InRelease Reading package lists... Done E: The repository &amp;#39;https://security.debian.org/debian-security bullseye/updates Release&amp;#39; does not have a Release file.</description>
     </item>
     
     <item>
       <title>Windows 11 Unable to Change Time Zone</title>
-      <link>https://cireasa.github.io/posts/windows-11-unable-to-change-time-zone/</link>
+      <link>https://www.resh.ro/posts/windows-11-unable-to-change-time-zone/</link>
       <pubDate>Mon, 25 Oct 2021 19:05:21 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/windows-11-unable-to-change-time-zone/</guid>
+      <guid>https://www.resh.ro/posts/windows-11-unable-to-change-time-zone/</guid>
       <description>Schimba timezone-ul in Windows 10/11 via cli</description>
     </item>
     
     <item>
       <title>Gaming Cum Sa Instalezi Roblox in Linux</title>
-      <link>https://cireasa.github.io/posts/gaming-cum-sa-instalezi-roblox-in-linux/</link>
+      <link>https://www.resh.ro/posts/gaming-cum-sa-instalezi-roblox-in-linux/</link>
       <pubDate>Fri, 15 Oct 2021 12:03:44 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/gaming-cum-sa-instalezi-roblox-in-linux/</guid>
+      <guid>https://www.resh.ro/posts/gaming-cum-sa-instalezi-roblox-in-linux/</guid>
       <description>Cum sa instalezi Roblox in Linux</description>
     </item>
     
     <item>
       <title>Windows Rearm Windows 2019</title>
-      <link>https://cireasa.github.io/posts/windows-rearm-windows-2019/</link>
+      <link>https://www.resh.ro/posts/windows-rearm-windows-2019/</link>
       <pubDate>Fri, 15 Oct 2021 10:37:13 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/windows-rearm-windows-2019/</guid>
+      <guid>https://www.resh.ro/posts/windows-rearm-windows-2019/</guid>
       <description>Cum sa folosesti Windows 2016/2019 pentru 3 ani gratis si legal (non-commercial)</description>
     </item>
     
     <item>
       <title>Ubuntu Neplan Static Ip</title>
-      <link>https://cireasa.github.io/posts/ubuntu-neplan-static-ip/</link>
+      <link>https://www.resh.ro/posts/ubuntu-neplan-static-ip/</link>
       <pubDate>Tue, 05 Oct 2021 11:47:51 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/ubuntu-neplan-static-ip/</guid>
+      <guid>https://www.resh.ro/posts/ubuntu-neplan-static-ip/</guid>
       <description>Asigneaza IP static in Ubuntu server via neplan</description>
     </item>
     
     <item>
       <title>Hugo Adauga Comentarii Prin Disqus</title>
-      <link>https://cireasa.github.io/posts/hugo-adauga-comentarii-prin-disqus/</link>
+      <link>https://www.resh.ro/posts/hugo-adauga-comentarii-prin-disqus/</link>
       <pubDate>Thu, 30 Sep 2021 23:27:09 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/hugo-adauga-comentarii-prin-disqus/</guid>
+      <guid>https://www.resh.ro/posts/hugo-adauga-comentarii-prin-disqus/</guid>
       <description>Cum sa adaugi comentarii in Hugo prin Disqus</description>
     </item>
     
     <item>
       <title>Conky Autostart</title>
-      <link>https://cireasa.github.io/posts/conky-autostart/</link>
+      <link>https://www.resh.ro/posts/conky-autostart/</link>
       <pubDate>Thu, 30 Sep 2021 22:17:34 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/conky-autostart/</guid>
+      <guid>https://www.resh.ro/posts/conky-autostart/</guid>
       <description>Cum sa pornesti automat Conky in Manjaro</description>
     </item>
     
     <item>
       <title>Updates Neofetch</title>
-      <link>https://cireasa.github.io/posts/updates-neofetch/</link>
+      <link>https://www.resh.ro/posts/updates-neofetch/</link>
       <pubDate>Thu, 30 Sep 2021 21:09:28 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/updates-neofetch/</guid>
+      <guid>https://www.resh.ro/posts/updates-neofetch/</guid>
       <description>system specs - upgrades!</description>
     </item>
     
     <item>
       <title>Git Detached Head</title>
-      <link>https://cireasa.github.io/posts/git-detached-head/</link>
+      <link>https://www.resh.ro/posts/git-detached-head/</link>
       <pubDate>Thu, 30 Sep 2021 21:02:30 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/git-detached-head/</guid>
+      <guid>https://www.resh.ro/posts/git-detached-head/</guid>
       <description>Git - Detached Head - cum sa rezolvi</description>
     </item>
     
     <item>
       <title>Hugo Cum Sa Deschizi Pagini in Tab Nou</title>
-      <link>https://cireasa.github.io/posts/hugo-cum-sa-deschizi-pagini-in-tab-nou/</link>
+      <link>https://www.resh.ro/posts/hugo-cum-sa-deschizi-pagini-in-tab-nou/</link>
       <pubDate>Thu, 30 Sep 2021 20:48:00 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/hugo-cum-sa-deschizi-pagini-in-tab-nou/</guid>
+      <guid>https://www.resh.ro/posts/hugo-cum-sa-deschizi-pagini-in-tab-nou/</guid>
       <description>Cum sa deschizi pagini in tab nou in Hugo</description>
     </item>
     
     <item>
       <title>Comenzi Sudo Fara Parola</title>
-      <link>https://cireasa.github.io/posts/comenzi-sudo-fara-parola/</link>
+      <link>https://www.resh.ro/posts/comenzi-sudo-fara-parola/</link>
       <pubDate>Wed, 22 Sep 2021 12:55:45 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/comenzi-sudo-fara-parola/</guid>
+      <guid>https://www.resh.ro/posts/comenzi-sudo-fara-parola/</guid>
       <description>Cum poti rula comenzi sudo fara sa bagi parola de fiecare data</description>
     </item>
     
     <item>
       <title>Static Ip Ubuntu Netplan</title>
-      <link>https://cireasa.github.io/posts/static-ip-ubuntu-netplan/</link>
+      <link>https://www.resh.ro/posts/static-ip-ubuntu-netplan/</link>
       <pubDate>Tue, 21 Sep 2021 16:04:18 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/static-ip-ubuntu-netplan/</guid>
+      <guid>https://www.resh.ro/posts/static-ip-ubuntu-netplan/</guid>
       <description>Cum sa asignezi un IP static/dinamic in Ubuntu cu Netplan</description>
     </item>
     
     <item>
       <title>Cum Ruleaza Blogul Asta</title>
-      <link>https://cireasa.github.io/posts/cum-ruleaza-blogul-asta/</link>
+      <link>https://www.resh.ro/posts/cum-ruleaza-blogul-asta/</link>
       <pubDate>Tue, 14 Sep 2021 09:16:25 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/cum-ruleaza-blogul-asta/</guid>
+      <guid>https://www.resh.ro/posts/cum-ruleaza-blogul-asta/</guid>
       <description>Unde e tinut blogul si ce soft e in spate</description>
     </item>
     
     <item>
       <title>Disable Mouse Acceleration Manjaro</title>
-      <link>https://cireasa.github.io/posts/disable-mouse-acceleration-manjaro/</link>
+      <link>https://www.resh.ro/posts/disable-mouse-acceleration-manjaro/</link>
       <pubDate>Sun, 12 Sep 2021 20:32:55 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/disable-mouse-acceleration-manjaro/</guid>
+      <guid>https://www.resh.ro/posts/disable-mouse-acceleration-manjaro/</guid>
       <description>Disable mouse acceleration</description>
     </item>
     
     <item>
       <title>Piper Configurare Mouse Mmo Manjaro</title>
-      <link>https://cireasa.github.io/posts/piper-configurare-mouse-mmo-manjaro/</link>
+      <link>https://www.resh.ro/posts/piper-configurare-mouse-mmo-manjaro/</link>
       <pubDate>Sun, 12 Sep 2021 19:59:28 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/piper-configurare-mouse-mmo-manjaro/</guid>
+      <guid>https://www.resh.ro/posts/piper-configurare-mouse-mmo-manjaro/</guid>
       <description>Cum sa configurezi un mouse MMO in Linux</description>
     </item>
     
     <item>
       <title>Neofetch</title>
-      <link>https://cireasa.github.io/posts/neofetch/</link>
+      <link>https://www.resh.ro/posts/neofetch/</link>
       <pubDate>Fri, 10 Sep 2021 18:50:07 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/neofetch/</guid>
+      <guid>https://www.resh.ro/posts/neofetch/</guid>
       <description>System specs</description>
     </item>
     
     <item>
       <title>Test Poza</title>
-      <link>https://cireasa.github.io/posts/test-poza/</link>
+      <link>https://www.resh.ro/posts/test-poza/</link>
       <pubDate>Fri, 10 Sep 2021 18:32:35 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/test-poza/</guid>
+      <guid>https://www.resh.ro/posts/test-poza/</guid>
       <description>Test de atasat poza</description>
     </item>
     
     <item>
       <title>First</title>
-      <link>https://cireasa.github.io/posts/first/</link>
+      <link>https://www.resh.ro/posts/first/</link>
       <pubDate>Wed, 08 Sep 2021 10:36:11 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/posts/first/</guid>
+      <guid>https://www.resh.ro/posts/first/</guid>
       <description>First post here</description>
     </item>
     

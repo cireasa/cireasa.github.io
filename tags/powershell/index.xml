@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>powershell on donno. stuff.</title>
-    <link>https://cireasa.github.io/tags/powershell/</link>
+    <link>https://www.resh.ro/tags/powershell/</link>
     <description>Recent content in powershell on donno. stuff.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jan 2023 20:13:49 +0100</lastBuildDate><atom:link href="https://cireasa.github.io/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 20:13:49 +0100</lastBuildDate><atom:link href="https://www.resh.ro/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eroare Enter-Pssession</title>
-      <link>https://cireasa.github.io/posts/202301-enter-pssession/</link>
+      <link>https://www.resh.ro/posts/202301-enter-pssession/</link>
       <pubDate>Mon, 23 Jan 2023 20:13:49 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/posts/202301-enter-pssession/</guid>
+      <guid>https://www.resh.ro/posts/202301-enter-pssession/</guid>
       <description>Enter-PSSession - WinRM client cannot process the request</description>
     </item>
     

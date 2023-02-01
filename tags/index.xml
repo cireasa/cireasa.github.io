@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on donno. stuff.</title>
-    <link>https://cireasa.github.io/tags/</link>
+    <link>https://www.resh.ro/tags/</link>
     <description>Recent content in Tags on donno. stuff.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jan 2023 22:28:54 +0100</lastBuildDate><atom:link href="https://cireasa.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 22:28:54 +0100</lastBuildDate><atom:link href="https://www.resh.ro/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo</title>
-      <link>https://cireasa.github.io/tags/hugo/</link>
+      <link>https://www.resh.ro/tags/hugo/</link>
       <pubDate>Tue, 24 Jan 2023 22:28:54 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/tags/hugo/</guid>
+      <guid>https://www.resh.ro/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://cireasa.github.io/tags/linux/</link>
+      <link>https://www.resh.ro/tags/linux/</link>
       <pubDate>Tue, 24 Jan 2023 22:28:54 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/tags/linux/</guid>
+      <guid>https://www.resh.ro/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://cireasa.github.io/tags/git/</link>
+      <link>https://www.resh.ro/tags/git/</link>
       <pubDate>Mon, 23 Jan 2023 20:34:37 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/tags/git/</guid>
+      <guid>https://www.resh.ro/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>powershell</title>
-      <link>https://cireasa.github.io/tags/powershell/</link>
+      <link>https://www.resh.ro/tags/powershell/</link>
       <pubDate>Mon, 23 Jan 2023 20:13:49 +0100</pubDate>
       
-      <guid>https://cireasa.github.io/tags/powershell/</guid>
+      <guid>https://www.resh.ro/tags/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>raspberrypi</title>
-      <link>https://cireasa.github.io/tags/raspberrypi/</link>
+      <link>https://www.resh.ro/tags/raspberrypi/</link>
       <pubDate>Thu, 20 Jan 2022 09:37:07 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/tags/raspberrypi/</guid>
+      <guid>https://www.resh.ro/tags/raspberrypi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>https://cireasa.github.io/tags/windows/</link>
+      <link>https://www.resh.ro/tags/windows/</link>
       <pubDate>Thu, 20 Jan 2022 09:37:07 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/tags/windows/</guid>
+      <guid>https://www.resh.ro/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pi</title>
-      <link>https://cireasa.github.io/tags/pi/</link>
+      <link>https://www.resh.ro/tags/pi/</link>
       <pubDate>Wed, 15 Dec 2021 12:32:52 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/tags/pi/</guid>
+      <guid>https://www.resh.ro/tags/pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>raspberry</title>
-      <link>https://cireasa.github.io/tags/raspberry/</link>
+      <link>https://www.resh.ro/tags/raspberry/</link>
       <pubDate>Wed, 15 Dec 2021 12:32:52 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/tags/raspberry/</guid>
+      <guid>https://www.resh.ro/tags/raspberry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vim</title>
-      <link>https://cireasa.github.io/tags/vim/</link>
+      <link>https://www.resh.ro/tags/vim/</link>
       <pubDate>Thu, 09 Dec 2021 14:52:31 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/tags/vim/</guid>
+      <guid>https://www.resh.ro/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>debian</title>
-      <link>https://cireasa.github.io/tags/debian/</link>
+      <link>https://www.resh.ro/tags/debian/</link>
       <pubDate>Tue, 30 Nov 2021 18:45:28 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/tags/debian/</guid>
+      <guid>https://www.resh.ro/tags/debian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>https://cireasa.github.io/tags/ubuntu/</link>
+      <link>https://www.resh.ro/tags/ubuntu/</link>
       <pubDate>Tue, 30 Nov 2021 18:45:28 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/tags/ubuntu/</guid>
+      <guid>https://www.resh.ro/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gaming</title>
-      <link>https://cireasa.github.io/tags/gaming/</link>
+      <link>https://www.resh.ro/tags/gaming/</link>
       <pubDate>Fri, 15 Oct 2021 12:03:44 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/tags/gaming/</guid>
+      <guid>https://www.resh.ro/tags/gaming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>roblox</title>
-      <link>https://cireasa.github.io/tags/roblox/</link>
+      <link>https://www.resh.ro/tags/roblox/</link>
       <pubDate>Fri, 15 Oct 2021 12:03:44 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/tags/roblox/</guid>
+      <guid>https://www.resh.ro/tags/roblox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conky</title>
-      <link>https://cireasa.github.io/tags/conky/</link>
+      <link>https://www.resh.ro/tags/conky/</link>
       <pubDate>Thu, 30 Sep 2021 22:17:34 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/tags/conky/</guid>
+      <guid>https://www.resh.ro/tags/conky/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>https://cireasa.github.io/tags/test/</link>
+      <link>https://www.resh.ro/tags/test/</link>
       <pubDate>Fri, 10 Sep 2021 18:32:35 +0300</pubDate>
       
-      <guid>https://cireasa.github.io/tags/test/</guid>
+      <guid>https://www.resh.ro/tags/test/</guid>
       <description></description>
     </item>
     

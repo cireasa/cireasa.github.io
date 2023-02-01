@@ -11,13 +11,13 @@
 1 2 3 4  function hugo_server() { WSL2_IPADDRESS=$(ip addr show eth0 | grep &#34;inet\b&#34; | awk &#39;{print $2}&#39; | cut -d/ -f1) hugo server --bind $WSL2_IPADDRESS --baseURL=http://$WSL2_IPADDRESS -D -F --gc -w }   Dupa rulezi direct hugo_server. IP-ul il iei din consola:
 1 2 3 4 5  Environment: &#34;development&#34; Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://172.">
 <meta name="author" content="reSH">
-<link rel="canonical" href="https://cireasa.github.io/posts/202301-hugo-script-localserver/" />
+<link rel="canonical" href="https://www.resh.ro/posts/202301-hugo-script-localserver/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.b243b7f5b0b102ded02c5f3996163a62b4a5cdacab1ed6480c9b042445d1ae4a.css" integrity="sha256-skO39bCxAt7QLF85lhY6YrSlzayrHtZIDJsEJEXRrko=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://cireasa.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://cireasa.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://cireasa.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://cireasa.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://cireasa.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="https://www.resh.ro/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.resh.ro/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.resh.ro/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.resh.ro/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.resh.ro/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.92.2" />
@@ -73,7 +73,7 @@ if (!doNotTrack) {
 1 2 3 4  function hugo_server() { WSL2_IPADDRESS=$(ip addr show eth0 | grep &#34;inet\b&#34; | awk &#39;{print $2}&#39; | cut -d/ -f1) hugo server --bind $WSL2_IPADDRESS --baseURL=http://$WSL2_IPADDRESS -D -F --gc -w }   Dupa rulezi direct hugo_server. IP-ul il iei din consola:
 1 2 3 4 5  Environment: &#34;development&#34; Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://172." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://cireasa.github.io/posts/202301-hugo-script-localserver/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://www.resh.ro/posts/202301-hugo-script-localserver/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-01-24T22:28:54+01:00" />
 <meta property="article:modified_time" content="2023-01-24T22:28:54+01:00" /><meta property="og:site_name" content="reSH.ro" />
 
@@ -88,18 +88,18 @@ if (!doNotTrack) {
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://cireasa.github.io/posts/"
-    }, 
+  "itemListElement": [, 
     {
       "@type": "ListItem",
       "position":  2 ,
+      "name": "Posts",
+      "item": "https://www.resh.ro/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
       "name": "Hugo Script Localserver",
-      "item": "https://cireasa.github.io/posts/202301-hugo-script-localserver/"
+      "item": "https://www.resh.ro/posts/202301-hugo-script-localserver/"
     }
   ]
 }
@@ -125,14 +125,14 @@ if (!doNotTrack) {
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cireasa.github.io/posts/202301-hugo-script-localserver/"
+    "@id": "https://www.resh.ro/posts/202301-hugo-script-localserver/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "donno. stuff.",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://cireasa.github.io/favicon.ico"
+      "url": "https://www.resh.ro/favicon.ico"
     }
   }
 }
@@ -154,7 +154,7 @@ if (!doNotTrack) {
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://cireasa.github.io/" accesskey="h" title="donno. stuff. (Alt + H)">donno. stuff.</a>
+            <a href="https://www.resh.ro" accesskey="h" title="donno. stuff. (Alt + H)">donno. stuff.</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -180,22 +180,22 @@ if (!doNotTrack) {
         </div>
         <ul id="menu">
             <li>
-                <a href="https://cireasa.github.io/categories/" title="categories">
+                <a href="https://www.resh.ro/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://cireasa.github.io/tags/" title="tags">
+                <a href="https://www.resh.ro/tags/" title="tags">
                     <span>tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://cireasa.github.io/about/" title="about">
+                <a href="https://www.resh.ro/about/" title="about">
                     <span>about</span>
                 </a>
             </li>
             <li>
-                <a href="https://cireasa.github.io/links/" title="links">
+                <a href="https://www.resh.ro/links/" title="links">
                     <span>links</span>
                 </a>
             </li>
@@ -272,14 +272,14 @@ Press Ctrl+C to stop
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://cireasa.github.io/tags/hugo/">hugo</a></li>
-      <li><a href="https://cireasa.github.io/tags/linux/">linux</a></li>
+      <li><a href="https://www.resh.ro/tags/hugo/">hugo</a></li>
+      <li><a href="https://www.resh.ro/tags/linux/">linux</a></li>
     </ul>
   </footer><div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
-      this.page.url = 'https:\/\/cireasa.github.io\/posts\/202301-hugo-script-localserver\/';
-      this.page.identifier = 'https:\/\/cireasa.github.io\/posts\/202301-hugo-script-localserver\/';
+      this.page.url = 'https:\/\/www.resh.ro\/posts\/202301-hugo-script-localserver\/';
+      this.page.identifier = 'https:\/\/www.resh.ro\/posts\/202301-hugo-script-localserver\/';
       this.page.title = 'Hugo Script Localserver';
     };
     (function() {
@@ -299,7 +299,7 @@ Press Ctrl+C to stop
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="https://cireasa.github.io/">donno. stuff.</a></span>
+    <span>&copy; 2023 <a href="https://www.resh.ro">donno. stuff.</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>raspberrypi on donno. stuff.</title>
-    <link>https://cireasa.github.io/tags/raspberrypi/</link>
+    <link>https://www.resh.ro/tags/raspberrypi/</link>
     <description>Recent content in raspberrypi on donno. stuff.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jan 2022 09:37:07 +0200</lastBuildDate><atom:link href="https://cireasa.github.io/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jan 2022 09:37:07 +0200</lastBuildDate><atom:link href="https://www.resh.ro/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Cum Sa Instalezi Un Pi0 Headless</title>
-      <link>https://cireasa.github.io/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</link>
+      <link>https://www.resh.ro/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</link>
       <pubDate>Thu, 20 Jan 2022 09:37:07 +0200</pubDate>
       
-      <guid>https://cireasa.github.io/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</guid>
+      <guid>https://www.resh.ro/posts/raspberry-cum-sa-instalezi-un-pi0-headless/</guid>
       <description>Cum sa configurezi un Raspberry Pi 0 W (1/2) headless - wifi/ssh</description>
     </item>
     
