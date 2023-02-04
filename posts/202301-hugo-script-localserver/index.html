@@ -108,8 +108,8 @@ if (!doNotTrack) {
   "keywords": [
     "hugo", "linux"
   ],
-  "articleBody": "Pentru rulat Hugo in WSL (unde nu merge localhost:1313):\n1 2 3 4  function hugo_server() { WSL2_IPADDRESS=$(ip addr show eth0 | grep \"inet\\b\" | awk '{print $2}' | cut -d/ -f1) hugo server --bind $WSL2_IPADDRESS --baseURL=http://$WSL2_IPADDRESS -D -F --gc -w }   Dupa rulezi direct hugo_server. IP-ul il iei din consola:\n1 2 3 4 5  Environment: \"development\" Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://172.28.34.232:1313/ (bind address 172.28.34.232) Press Ctrl+C to stop   ",
-  "wordCount" : "87",
+  "articleBody": "Pentru rulat Hugo in WSL (unde nu merge localhost:1313):\n1 2 3 4  function hugo_server() { WSL2_IPADDRESS=$(ip addr show eth0 | grep \"inet\\b\" | awk '{print $2}' | cut -d/ -f1) hugo server --bind $WSL2_IPADDRESS --baseURL=http://$WSL2_IPADDRESS -D -F --gc -w }   Dupa rulezi direct hugo_server. IP-ul il iei din consola:\n1 2 3 4 5  Environment: \"development\" Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://172.28.34.232:1313/ (bind address 172.28.34.232) Press Ctrl+C to stop   Tyler Quinlivan - Working with Hugo on WSL  ",
+  "wordCount" : "95",
   "inLanguage": "en",
   "datePublished": "2023-01-24T22:28:54+01:00",
   "dateModified": "2023-01-24T22:28:54+01:00",
@@ -260,7 +260,11 @@ Web Server is available at http://172.28.34.232:1313/ (bind address 172.28.34.23
 Press Ctrl+C to stop
 </code></pre></td></tr></table>
 </div>
-</div>
+</div><p><a href="https://www.tylerquinlivan.com/posts/hugo_on_wsl/" target="_blank">
+  Tyler Quinlivan - Working with Hugo on WSL
+</a>
+</p>
+
 
   </div>
 
