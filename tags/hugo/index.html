@@ -174,9 +174,7 @@ if (!doNotTrack) {
     </h2>
   </header>
   <div class="entry-content">
-    <p>Pentru rulat Hugo in WSL (unde nu merge localhost:1313):
-1 2 3 4  function hugo_server() { WSL2_IPADDRESS=$(ip addr show eth0 | grep &#34;inet\b&#34; | awk &#39;{print $2}&#39; | cut -d/ -f1) hugo server --bind $WSL2_IPADDRESS --baseURL=http://$WSL2_IPADDRESS -D -F --gc -w }   Dupa rulezi direct hugo_server. IP-ul il iei din consola:
-1 2 3 4 5  Environment: &#34;development&#34; Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://172....</p>
+    <p>Pentru rulat Hugo in WSL (unde nu merge localhost:1313)</p>
   </div>
   <footer class="entry-footer"><span title='2023-01-24 22:28:54 +0100 CET'>January 24, 2023</span>&nbsp;·&nbsp;reSH</footer>
   <a class="entry-link" aria-label="post link to Hugo Script Localserver" href="https://www.resh.ro/posts/202301-hugo-script-localserver/"></a>

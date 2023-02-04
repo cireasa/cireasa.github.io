@@ -108,8 +108,8 @@ if (!doNotTrack) {
   "keywords": [
     "powershell"
   ],
-  "articleBody": "Am instalat un Windows 2019 Core intr-un VirtualBox, si m-am lovit de eroarea asta cand am vrut sa fac un powershell remote catre VM: Easy fix:\n Verifica pe calculatorul de pe care vrei sa initiezi conexiunea daca e pornit WinRM\nnet start WinRM Adauga IP-ul target-ului in TrustedHosts\nSet-Item WSMan:\\localhost\\Client\\TrustedHosts -Value \"192.168.56.100\"  Daca mai da ceva cu virgula, remember to use credentials:\n$credentials = get-credentials\nenter-pssession 192.168.56.100 -credential $credentials\nUra!\n",
-  "wordCount" : "70",
+  "articleBody": "Am instalat un Windows 2019 Core intr-un VirtualBox, si m-am lovit de eroarea asta cand am vrut sa fac un powershell remote catre VM: Easy fix:\n Verifica pe calculatorul de pe care vrei sa initiezi conexiunea daca e pornit WinRM\nnet start WinRM Adauga IP-ul target-ului in TrustedHosts\nSet-Item WSMan:\\localhost\\Client\\TrustedHosts -Value \"192.168.56.100\"  Daca ai nevoie sa adaugi mai mult de un ip: Set-Item WSMan:\\localhost\\Client\\TrustedHosts -Concatenate -Value \"192.168.56.150\"\nDaca mai da ceva cu virgula, remember to use credentials:\n$credentials = get-credentials\nenter-pssession 192.168.56.100 -credential $credentials\nUra!\nDTonias - Add Comps to trusted hosts  ",
+  "wordCount" : "92",
   "inLanguage": "en",
   "datePublished": "2023-01-23T20:13:49+01:00",
   "dateModified": "2023-01-23T20:13:49+01:00",
@@ -238,6 +238,8 @@ if (!doNotTrack) {
 <li>Adauga IP-ul target-ului in TrustedHosts<br>
 <code>Set-Item WSMan:\localhost\Client\TrustedHosts -Value &quot;192.168.56.100&quot;</code></li>
 </ol>
+<p>Daca ai nevoie sa adaugi mai mult de un ip:
+<code>Set-Item WSMan:\localhost\Client\TrustedHosts -Concatenate -Value &quot;192.168.56.150&quot;</code></p>
 <p><img loading="lazy" src="/img/202301-pssession-winrmfix-trustedhosts.png" alt="enter-pssession-fix"  />
 </p>
 <p>Daca mai da ceva cu virgula, remember to use credentials:<br>
@@ -246,6 +248,10 @@ if (!doNotTrack) {
 <p><img loading="lazy" src="/img/202301-pssession-ok.png" alt="enter-pssession-ok"  />
 </p>
 <p>Ura!</p>
+<p><a href="https://www.dtonias.com/add-computers-trustedhosts-list-powershell/" target="_blank">
+  DTonias - Add Comps to trusted hosts
+</a>
+</p>
 
 
   </div>

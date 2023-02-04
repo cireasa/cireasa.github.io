@@ -13,12 +13,7 @@
       <pubDate>Mon, 23 Jan 2023 20:34:37 +0100</pubDate>
       
       <guid>https://www.resh.ro/posts/202301-first-time-git-setup/</guid>
-      <description>1 2 3 4 5  git config --global user.name &amp;#34;Michael Jackson&amp;#34; git config --global user.email michael.jackson@gmail.com git config --global core.editor vim (pentru windows: git config --global core.editor &amp;#34;&amp;#39;C:/Program Files/Notepad++/notepad++.exe&amp;#39; -multiInst -notabbar -nosession -noPlugin&amp;#34;) git config --global init.defaultBranch main   Check settings:
-git config --list
-SSH auth la github Generare chei Verifica cheile existente
-ls -al ~/.ssh
-Daca exista ceva de genul: id_rsa.pub, id_edcsa.pub, id_ed25519.pub, move on.
-Daca nu exista, genereaza o cheie noua:</description>
+      <description>Cateva configurari de baza pentru git + ssh auth</description>
     </item>
     
     <item>

@@ -222,9 +222,7 @@ if (!doNotTrack) {
     </h2>
   </header>
   <div class="entry-content">
-    <p>Pentru rulat Hugo in WSL (unde nu merge localhost:1313):
-1 2 3 4  function hugo_server() { WSL2_IPADDRESS=$(ip addr show eth0 | grep &#34;inet\b&#34; | awk &#39;{print $2}&#39; | cut -d/ -f1) hugo server --bind $WSL2_IPADDRESS --baseURL=http://$WSL2_IPADDRESS -D -F --gc -w }   Dupa rulezi direct hugo_server. IP-ul il iei din consola:
-1 2 3 4 5  Environment: &#34;development&#34; Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://172....</p>
+    <p>Pentru rulat Hugo in WSL (unde nu merge localhost:1313)</p>
   </div>
   <footer class="entry-footer"><span title='2023-01-24 22:28:54 +0100 CET'>January 24, 2023</span>&nbsp;·&nbsp;reSH</footer>
   <a class="entry-link" aria-label="post link to Hugo Script Localserver" href="https://www.resh.ro/posts/202301-hugo-script-localserver/"></a>
@@ -236,12 +234,7 @@ if (!doNotTrack) {
     </h2>
   </header>
   <div class="entry-content">
-    <p>1 2 3 4 5  git config --global user.name &#34;Michael Jackson&#34; git config --global user.email michael.jackson@gmail.com git config --global core.editor vim (pentru windows: git config --global core.editor &#34;&#39;C:/Program Files/Notepad&#43;&#43;/notepad&#43;&#43;.exe&#39; -multiInst -notabbar -nosession -noPlugin&#34;) git config --global init.defaultBranch main   Check settings:
-git config --list
-SSH auth la github Generare chei Verifica cheile existente
-ls -al ~/.ssh
-Daca exista ceva de genul: id_rsa.pub, id_edcsa.pub, id_ed25519.pub, move on.
-Daca nu exista, genereaza o cheie noua:...</p>
+    <p>Cateva configurari de baza pentru git &#43; ssh auth</p>
   </div>
   <footer class="entry-footer"><span title='2023-01-23 20:34:37 +0100 CET'>January 23, 2023</span>&nbsp;·&nbsp;reSH</footer>
   <a class="entry-link" aria-label="post link to First Time Git Setup" href="https://www.resh.ro/posts/202301-first-time-git-setup/"></a>
